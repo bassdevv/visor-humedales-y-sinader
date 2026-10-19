@@ -8,7 +8,7 @@ de API.
 > Proyecto desarrollado en el bootcamp **“Desarrollo de aplicaciones web territoriales con IA”**,
 > bajo la metodología **Spec-Driven Development (SDD)** con **OpenSpec**.
 >
-> Stack principal: **MapLibre GL JS**, **Chart.js**, **Turf.js**, **Tailwind CSS** y **JavaScript ES Modules**.
+> Stack: **HTML5**, **Tailwind CSS**, **Vanilla JS** y **MapLibre GL JS**.
 
 ---
 
@@ -61,16 +61,21 @@ exportación y análisis de buffer.
 
 ---
 
-## Stack y tecnologías
+## Stack
 
 | Capa | Tecnología |
 | --- | --- |
 | Estructura | HTML5 semántico |
 | Estilos | [Tailwind CSS 3](https://tailwindcss.com/) vía CDN (`darkMode: 'class'`) + `css/styles.css` |
-| Lógica | JavaScript **Vanilla con ES Modules nativos** (sin build, sin bundler) |
+| Lógica | **Vanilla JS** con ES Modules nativos (sin build, sin bundler) |
 | Mapas | [MapLibre GL JS 4.7.1](https://maplibre.org/) |
-| Gráficos | [Chart.js 4.4.7](https://www.chartjs.org/) (carga bajo demanda por CDN) |
-| Geoespacial | [Turf.js 7.0](https://turfjs.org/) para buffers (carga bajo demanda) |
+
+## Tecnologías
+
+| Uso | Tecnología |
+| --- | --- |
+| Gráficos | [Chart.js 4.4.7](https://www.chartjs.org/) (dashboard, carga bajo demanda por CDN) |
+| Geoespacial | [Turf.js 7.0](https://turfjs.org/) (buffers, carga bajo demanda) |
 | Export Shapefile | [@mapbox/shp-write](https://github.com/mapbox/shp-write) (carga bajo demanda) |
 | Datos | GeoJSON estático (`./data/*.geojson`) |
 | Hosting | GitHub Pages |
