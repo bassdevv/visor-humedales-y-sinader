@@ -1,11 +1,14 @@
-﻿# Visor Geoespacial: Humedales Urbanos y Establecimientos SINADER
+# Visor Geoespacial: Humedales Urbanos y Establecimientos SINADER
 
 Visor web geospacial **Zero-Server** (100% estático) que cruza los **Humedales Urbanos**
 (SIMBIO / MMA) con los **establecimientos industriales SINADER 2024**, permitiendo explorar,
 filtrar, analizar y exportar ambas capas directamente en el navegador, sin backend ni claves
 de API.
 
-> Proyecto desarrollado en el bootcamp **“Desarrollo de aplicaciones web territoriales con IA”**.
+> Proyecto desarrollado en el bootcamp **“Desarrollo de aplicaciones web territoriales con IA”**,
+> bajo la metodología **Spec-Driven Development (SDD)** con **OpenSpec**.
+>
+> Stack principal: **MapLibre GL JS**, **Chart.js**, **Turf.js**, **Tailwind CSS** y **JavaScript ES Modules**.
 
 ---
 
@@ -42,6 +45,22 @@ https://BasssDev.github.io/visor-humedales-y-sinader/
 
 ---
 
+## Metodología: Spec-Driven Development con OpenSpec
+
+El visor se construyó siguiendo **Spec-Driven Development (SDD)** con **OpenSpec**: primero se
+especificó cada capacidad y luego se implementó, manteniendo trazabilidad entre requisito,
+diseño y código.
+
+- `openspec/specs/geospatial-viewer/spec.md`: especificación canónica (requisitos + escenarios).
+- `openspec/changes/<cambio>/`: propuestas con `proposal.md`, `design.md`, `tasks.md` y deltas
+  de especificación (`specs/`).
+- `openspec/changes/archive/`: cambios implementados, conservados como historial.
+
+El flujo se aplicó por capacidades: visor base, capa secundaria, dashboard cruzado,
+exportación y análisis de buffer.
+
+---
+
 ## Stack y tecnologías
 
 | Capa | Tecnología |
@@ -56,6 +75,7 @@ https://BasssDev.github.io/visor-humedales-y-sinader/
 | Datos | GeoJSON estático (`./data/*.geojson`) |
 | Hosting | GitHub Pages |
 | Arquitectura | Zero-Server (sin backend, sin compilación) |
+| Metodología | **Spec-Driven Development (SDD)** con **OpenSpec** |
 
 **Sin dependencias de build**: no hay `npm install` ni empaquetado. El navegador carga los
 módulos ES directamente.
