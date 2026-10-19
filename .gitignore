@@ -1,0 +1,10 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Node (aunque el proyecto no requiere build)
+node_modules/
+npm-debug.log*

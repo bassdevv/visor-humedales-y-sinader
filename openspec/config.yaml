@@ -1,0 +1,10 @@
+schema: openspec/v1
+name: visor-geoespacial-zero-server
+description: Visor web geoespacial ligero Zero-Server desplegado en GitHub Pages con MapLibre GL JS y Tailwind CSS.
+
+context:
+  runtime: Browser (Static HTML5 + native ES modules)
+  styling: Tailwind CSS via CDN + css/styles.css
+  mapping: MapLibre GL JS
+  architecture: Zero-Server / Modular ES Modules, no build step (KISS)
+  hosting: GitHub Pages
