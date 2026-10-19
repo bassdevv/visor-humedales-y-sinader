@@ -16,8 +16,6 @@ de API.
 
 **Sitio en vivo:** <https://bassdevv.github.io/visor-humedales-y-sinader/>
 
-**Repositorio:** <https://github.com/bassdevv/visor-humedales-y-sinader>
-
 ---
 
 ## Características
