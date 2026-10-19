@@ -5,8 +5,7 @@ Visor web geospacial **Zero-Server** (100% estático) que cruza los **Humedales 
 filtrar, analizar y exportar ambas capas directamente en el navegador, sin backend ni claves
 de API.
 
-> Proyecto desarrollado durante un **Bootcamp de GeoIA** (inteligencia artificial aplicada a
-> datos geoespaciales).
+> Proyecto desarrollado en el bootcamp **“Desarrollo de aplicaciones web territoriales con IA”**.
 
 ---
 
@@ -132,7 +131,7 @@ y los archivos de datos se sirvan tal cual.
 ```bash
 git init
 git add .
-git commit -m "Visor geospacial Zero-Server (Bootcamp GeoIA)"
+git commit -m "Visor geospacial Zero-Server (Desarrollo de aplicaciones web territoriales con IA)"
 git branch -M main
 git remote add origin https://github.com/<tu-usuario>/<nombre-del-repo>.git
 git push -u origin main
@@ -156,5 +155,5 @@ procesa archivos XLSX.
 
 ## Licencia y créditos
 
-Proyecto educativo desarrollado en un **Bootcamp de GeoIA**. Datos con fines de demostración,
+Proyecto educativo desarrollado en el bootcamp **“Desarrollo de aplicaciones web territoriales con IA”**. Datos con fines de demostración,
 cuya titularidad corresponde a sus fuentes (MMA · SIMBIO + SINADER).
