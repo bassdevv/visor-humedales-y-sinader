@@ -1,4 +1,4 @@
-# Visor Geoespacial: Humedales Urbanos y Establecimientos SINADER
+﻿# Visor Geoespacial: Humedales Urbanos y Establecimientos SINADER
 
 Visor web geospacial **Zero-Server** (100% estático) que cruza los **Humedales Urbanos**
 (SIMBIO / MMA) con los **establecimientos industriales SINADER 2024**, permitiendo explorar,
@@ -14,7 +14,7 @@ de API.
 Al desplegarse en GitHub Pages queda disponible en:
 
 ```
-https://<tu-usuario>.github.io/<nombre-del-repo>/
+https://<tu-usuario>.github.io/visor-humedales-y-sinader/
 ```
 
 ---
@@ -121,7 +121,7 @@ Luego abre <http://localhost:8000>.
    - **Source**: `Deploy from a branch`
    - **Branch**: `main` · carpeta `/ (root)` · **Save**
 4. Espera 1–2 minutos; el sitio queda en
-   `https://<tu-usuario>.github.io/<nombre-del-repo>/`.
+   `https://<tu-usuario>.github.io/visor-humedales-y-sinader/`.
 
 El archivo `.nojekyll` en la raíz desactiva el procesamiento de Jekyll para que los módulos ES
 y los archivos de datos se sirvan tal cual.
@@ -133,11 +133,11 @@ git init
 git add .
 git commit -m "Visor geospacial Zero-Server (Desarrollo de aplicaciones web territoriales con IA)"
 git branch -M main
-git remote add origin https://github.com/<tu-usuario>/<nombre-del-repo>.git
+git remote add origin https://github.com/<tu-usuario>/visor-humedales-y-sinader.git
 git push -u origin main
 ```
 
-> Alternativa con GitHub CLI: `gh repo create <nombre-del-repo> --public --source=. --push`.
+> Alternativa con GitHub CLI: `gh repo create visor-humedales-y-sinader --public --source=. --push`.
 
 ---
 
